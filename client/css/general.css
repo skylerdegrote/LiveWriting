@@ -5,6 +5,7 @@
 
 body {
     background-color: #81eeff;
+
 }
 
 /* navigation */
@@ -20,7 +21,7 @@ header {
 
 footer {
     background-color: #1d2848;
-    height: 50px;
+    height: 100px;
 }
 
 h5 {
@@ -29,18 +30,59 @@ h5 {
     font-size: 16px;
 }
 
-header a {
+header a, footer a {
     color: #81eeff;
     text-decoration: none;
-
-
 }
 
-header a:hover {
+a:hover {
     border-bottom: whitesmoke 3px solid;
 }
 
 .activeLink {
     border-bottom: solid whitesmoke 3px;
     color: whitesmoke;
+}
+
+.main {
+    height: 700px;
+}
+
+.sideBar {
+    background-color: #1d2848;
+    min-height: 620px;
+    width: 200px;
+    display: inline-block;
+    padding: 40px;
+}
+
+.sideBar a {
+    color: #81eeff;
+    text-decoration: none;
+}
+
+.sideBar h4 {
+    margin: 20px;
+}
+
+.rightSideBar {
+    float: right;
+    color: #81eeff;
+}
+
+.leftSideBar {
+    float: left;
+    color: #81eeff;
+}
+
+.border5px {
+    border: solid #1d2848 5px;
+    padding: 50px;
+    margin:20px;
+}
+
+.sideBarHeading {
+    font-size: 19px;
+    color: whitesmoke;
+    text-decoration: underline;
 }
